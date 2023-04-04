@@ -1,0 +1,14 @@
+{
+    "name": "aimery/projet-composer",
+    "description": "Première utilisation de composer",
+    "autoload": {
+        "psr-4": {
+            "Aimery\\ProjetComposer\\": "src/",
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "symfony/mailer": "^6.2",
+        "gipetto/cowsay": "^1.1"
+    }
+}
